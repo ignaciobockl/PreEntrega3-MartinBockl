@@ -1,0 +1,17 @@
+{
+  "name": "tropicana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path scss styles/styles.scss styles/styles.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "author": "Martin Bockl, Lucas Ignacio",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
