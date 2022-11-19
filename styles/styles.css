@@ -1,0 +1,10 @@
+:root {
+    --bg-color: #ec0000;
+    --color-font1: #fff;
+    --color-font2: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
