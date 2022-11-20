@@ -60,6 +60,15 @@
   padding: inherit;
 }
 
+.headerNavResponsiveInvertido {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+    padding: inherit;
+}
+
 .headerNavResponsiveBorder {
   display: flex;
   flex-direction: column;
@@ -77,18 +86,18 @@
 }
 
 .headerNavResponsiveImgIconInvertido {
-  width: 35px;
-  height: 35px;
-
-  margin-left: 5px;
-}
+    width: 35px;
+    height: 35px;
+  
+    margin-left: 10px;
+  }
 
 .headerNavResponsiveImgIcon {
   background-color: transparent;
 }
 
 .headerNavResponsiveImgText {
-  font-size: smaller;
+  font-size: 1.75rem;
   text-decoration: none;
   color: $color-font1;
 }
@@ -128,6 +137,35 @@
       .headerNavResponsiveBorder {
         flex-direction: row;
         justify-content: space-between;
+      }
+
+      .headerNavResponsiveInvertido {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        padding: inherit;
+    }
+
+    .headerNavResponsiveImgIcon {
+        width: 4rem;
+        height: auto;
+      
+        margin-right: 5px;
+      }
+
+      .headerNavResponsiveImgIconInvertido {
+        width: 4rem;
+        height: auto;
+      
+        margin-right: 5px;
+      }
+
+      .headerNavResponsiveImgText {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: $color-font1;
       }
 
       .headerColumnLeft {
