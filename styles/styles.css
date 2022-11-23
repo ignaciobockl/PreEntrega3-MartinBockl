@@ -77,6 +77,26 @@
   text-decoration: none;
   color: #fff; }
 
+nav {
+  max-height: 90px; }
+
+.navImgLogo {
+  height: 4.5rem;
+  width: 100%;
+  padding: 20px; }
+
+.navBgColor {
+  background-color: #200b33; }
+
+.navTransparent {
+  background-color: transparent; }
+
+.navbar-brand, .nav-link {
+  color: #fff !important; }
+
+.navbar-toggler {
+  background-color: #453a4f !important; }
+
 @media screen and (min-width: 576px) {
   .headerNavResponsiveBorder {
     height: 100%;
@@ -137,3 +157,16 @@
     margin-right: 10px;
     display: flex;
     justify-content: flex-end; } }
+
+@media screen and (max-width: 992px) {
+  .navLiItemFirst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #200b33; }
+  .navLiItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #200b33;
+    border-top: 1.5px solid #ec0000; } }

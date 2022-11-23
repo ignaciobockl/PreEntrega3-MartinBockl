@@ -1,7 +1,7 @@
 {
   "name": "tropicana",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto sitio web para Hotel y Casino Tropicana.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
