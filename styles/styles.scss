@@ -103,37 +103,39 @@
 }
 
 nav {
-   max-height: 90px;
-}
-
-.navbar {
-   // flex-wrap: nowrap !important;
+  max-height: 90px;
 }
 
 .navImgLogo {
-   height: 4.5rem;
-   width: 100%;
+  height: 4.5rem;
+  width: 100%;
 
-   padding: 20px;
+  padding: 20px;
 }
 
 .navBgColor {
-   background-color: $bg-color2;
+  background-color: $bg-color2;
 }
 
 .navTransparent {
-   background-color: transparent;
+  background-color: transparent;
 }
 
-.navbar-brand, .nav-link {
-   color: $color-font1 !important;
+.navbar-brand,
+.nav-link {
+  color: $color-font1 !important;
 }
 
 .navbar-toggler {
-   background-color: #453a4f !important;
+  background-color: #453a4f !important;
 }
 
 @media screen and (min-width: 576px) {
+
+   .container {
+      max-width: 100% !important;
+   }
+
   .headerNavResponsiveBorder {
     height: 100%;
     justify-content: space-between;
@@ -230,24 +232,21 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
-   .navbar {
-      
-   }
 }
 
 @media screen and (max-width: 992px) {
-   .navLiItemFirst {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      background-color: $bg-color2;
-   }
-   
-   .navLiItem {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      background-color: $bg-color2;
-      border-top: 1.5px solid $color-font3;
-   }
+  .navLiItemFirst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $bg-color2;
+  }
+
+  .navLiItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $bg-color2;
+    border-top: 1.5px solid $color-font3;
+  }
 }
