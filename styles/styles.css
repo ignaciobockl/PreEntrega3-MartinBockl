@@ -77,6 +77,39 @@
   text-decoration: none;
   color: #fff; }
 
+.mainCardImg {
+  max-height: 280px; }
+
+.mainCardImgFondo {
+  background-color: transparent !important; }
+
+.mainCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end; }
+
+.mainCardContentButton {
+  background-color: #ec0000 !important;
+  font-weight: bold !important;
+  width: fit-content;
+  align-self: center;
+  padding: 7.5px 30px; }
+
+.mainCardContentTitle {
+  -webkit-text-stroke: #000 black;
+  background-color: transparent;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center; }
+
+.mainCardContentDescription {
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: smaller;
+  text-align: justify;
+  padding: 10px; }
+
 nav {
   max-height: 90px; }
 
@@ -113,7 +146,11 @@ nav {
   .headerColumnLeftItemSubTitle {
     font-size: 1.5rem; }
   .headerColumnLeftItemDescription {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  .mainCardContentTitle {
+    font-size: xx-large; }
+  .mainCardImg {
+    max-height: 375px; } }
 
 @media screen and (min-width: 768px) {
   .headerColumns {
@@ -159,7 +196,20 @@ nav {
     margin-bottom: 5px;
     margin-right: 10px;
     display: flex;
-    justify-content: flex-end; } }
+    justify-content: flex-end; }
+  .mainCardContentDescription {
+    font-size: medium; }
+  .mainCardImg {
+    max-height: 450px; } }
+
+@media screen and (min-width: 992px) {
+  .mainCardContentTitle {
+    font-size: xxx-large; }
+  .mainCardContentDescription {
+    font-size: large;
+    padding: 15px; }
+  .mainCardImg {
+    max-height: auto !important; } }
 
 @media screen and (max-width: 992px) {
   .navLiItemFirst {
