@@ -1,0 +1,16 @@
+@mixin cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+@mixin cardImgCasino {
+    min-height: 250px;
+    max-height: 280px;
+}
+
+@mixin cardImgHotel {
+    min-height: 315px;
+    max-height: 350px;
+}

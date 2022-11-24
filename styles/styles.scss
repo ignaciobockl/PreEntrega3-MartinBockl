@@ -1,3 +1,4 @@
+@import 'scss/main/card';
 @import 'scss/variables';
 
 * {
@@ -102,19 +103,20 @@
   color: $color-font1;
 }
 
-.mainCardImg {
-  max-height: 280px;
+.mainCardContent {
+   @include cardContent;
+ }
+
+.mainCardImgCasino {
+  @include cardImgCasino;
+}
+
+.mainCardImgHotel {
+   @include cardImgHotel;
 }
 
 .mainCardImgFondo {
   background-color: transparent !important;
-}
-
-.mainCardContent {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-end;
 }
 
 .mainCardContentButton {
@@ -124,6 +126,14 @@
     align-self: center;
     padding: 7.5px 30px;
 }
+
+.mainCardContentDescription {
+   background-color: $bg-color5;
+   font-size: smaller;
+   text-align: justify;
+ 
+   padding: 10px;
+ }
 
 .mainCardContentTitle {
    -webkit-text-stroke: $color-font2 black;
@@ -135,14 +145,6 @@
   display: flex;
   justify-content: center;
 
-}
-
-.mainCardContentDescription {
-  background-color: $bg-color5;
-  font-size: smaller;
-  text-align: justify;
-
-  padding: 10px;
 }
 
 nav {
@@ -205,9 +207,13 @@ nav {
     font-size: xx-large;
   }
 
-  .mainCardImg {
+  .mainCardImgCasino {
     max-height: 375px;
   }
+
+  .mainCardImgHotel {
+   max-height: 375px;
+ }
 }
 
 @media screen and (min-width: 768px) {
@@ -284,8 +290,12 @@ nav {
     font-size: medium;
   }
 
-  .mainCardImg {
+  .mainCardImgCasino {
     max-height: 450px;
+  }
+
+  .mainCardImgHotel {
+   max-height: 450px;
   }
 }
 
@@ -300,9 +310,14 @@ nav {
    padding: 15px;
  }
 
-  .mainCardImg {
+//  TODO: poner una card a la par de la otra
+  .mainCardImgCasino {
     max-height: auto !important;
   }
+
+  .mainCardImgHotel {
+   max-height: auto !important;
+ }
 }
 
 @media screen and (max-width: 992px) {
