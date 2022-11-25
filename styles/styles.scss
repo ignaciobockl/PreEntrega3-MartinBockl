@@ -17,7 +17,7 @@
 .footer {
   @include colorFondo;
 
-  background-image: url('../../assets/images/footer/footer.jpg');
+  background-image: url('./../assets//images/footer/footer.jpg');
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -110,7 +110,7 @@
 }
 
 .header_banner {
-  background-image: url('../../assets/images/banner/banner_header.jpg');
+  background-image: url('./../assets/images/banner/banner_header.jpg');
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
