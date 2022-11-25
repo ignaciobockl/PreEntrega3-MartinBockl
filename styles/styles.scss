@@ -10,100 +10,99 @@
 }
 
 .footer {
-   @include colorFondo;
+  @include colorFondo;
 
-   background-image: url('../../assets/images/footer/footer.jpg');
-   background-position-x: 50%;
-   background-position-y: 50%;
-   background-size: cover;
- 
-   // height: 500px;
-   padding-top: 30px;
-   padding-bottom: 30px;
- }
+  background-image: url('../../assets/images/footer/footer.jpg');
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
 
- .footerCovid {
-   background-color: $bg-color4;
-   color: $color-font2;
-   padding: 40px;
+  // height: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
- }
+.footerCovid {
+  background-color: $bg-color4;
+  color: $color-font2;
+  padding: 40px;
+}
 
- .footerCovidTitle {
-   background-color: transparent;
-   color: $color-font2;
-   font-weight: bold;
- }
+.footerCovidTitle {
+  background-color: transparent;
+  color: $color-font2;
+  font-weight: bold;
+}
 
- .footerDiseñador {
-   @include colorFondo;
+.footerDiseñador {
+  @include colorFondo;
 
-   padding-top: 5px;
-   text-align: center;
- }
+  padding-top: 5px;
+  text-align: center;
+}
 
- .footerDiseñadorDesa {
-   @include colorFondo;
- }
+.footerDiseñadorDesa {
+  @include colorFondo;
+}
 
- .footerDiseñadorNombre{
-   @include colorFondo;
+.footerDiseñadorNombre {
+  @include colorFondo;
 
-   font-weight: bold;
-   text-decoration: none;
-   color: $color-font2;
- }
+  font-weight: bold;
+  text-decoration: none;
+  color: $color-font2;
+}
 
- .footerImgContainer {
-   @include colorFondo;
+.footerImgContainer {
+  @include colorFondo;
 
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
 
- .footerImgLogo {
-   @include colorFondo;
+.footerImgLogo {
+  @include colorFondo;
 
-   height: 6em;
-   width: 70%;
- }
+  height: 6em;
+  width: 70%;
+}
 
- .footerRow {
-   @include colorFondo;
- }
+.footerRow {
+  @include colorFondo;
+}
 
- .footerTextoAvisoCovid {
-   @include colorFondo;
+.footerTextoAvisoCovid {
+  @include colorFondo;
 
-   padding-left: 0 !important;
-   padding-right: 0 !important;
- }
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
- .footerTextoInfo {
-   @include colorFondo;
+.footerTextoInfo {
+  @include colorFondo;
 
-   display: flex;
-    flex-direction: column;
-    align-items: center;
- }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
- .footerTextoInfoCorporation {
-   @include colorFondo;
- }
+.footerTextoInfoCorporation {
+  @include colorFondo;
+}
 
- .footerTextoInfoDerechos {
-   @include colorFondo;
- }
+.footerTextoInfoDerechos {
+  @include colorFondo;
+}
 
- .footerTextoInfoTitle {
-   @include colorFondo;
+.footerTextoInfoTitle {
+  @include colorFondo;
 
-   text-align: justify;
-   padding-left: 30px;
-   padding-right: 30px;
- }
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .header_banner {
   background-image: url('../../assets/images/banner/banner_header.jpg');
@@ -201,15 +200,15 @@
 }
 
 .mainCardContent {
-   @include cardContent;
- }
+  @include cardContent;
+}
 
 .mainCardImgCasino {
   @include cardImgCasino;
 }
 
 .mainCardImgHotel {
-   @include cardImgHotel;
+  @include cardImgHotel;
 }
 
 .mainCardImgFondo {
@@ -217,31 +216,30 @@
 }
 
 .mainCardContentButton {
-   background-color: $color-font3 !important;
-   font-weight: bold !important;
-   width: fit-content;
-    align-self: center;
-    padding: 7.5px 30px;
+  background-color: $color-font3 !important;
+  font-weight: bold !important;
+  width: fit-content;
+  align-self: center;
+  padding: 7.5px 30px;
 }
 
 .mainCardContentDescription {
-   background-color: $bg-color5;
-   font-size: smaller;
-   text-align: justify;
- 
-   padding: 10px;
- }
+  background-color: $bg-color5;
+  font-size: smaller;
+  text-align: justify;
+
+  padding: 10px;
+}
 
 .mainCardContentTitle {
-   -webkit-text-stroke: $color-font2 black;
+  -webkit-text-stroke: $color-font2 black;
 
   background-color: transparent;
   font-size: x-large;
   font-weight: bold;
-  
+
   display: flex;
   justify-content: center;
-
 }
 
 nav {
@@ -277,24 +275,23 @@ nav {
     max-width: 100% !important;
   }
 
-  .footerDiseñador{
-   padding-top: 10px;
+  .footerDiseñador {
+    padding-top: 10px;
   }
 
   .footerImgContainer {
-   padding-top: 10px;
-
+    padding-top: 10px;
   }
 
   .footerImgLogo {
-   height: 5em;
-   width: 50%;
- }
+    height: 5em;
+    width: 50%;
+  }
 
- .footerTextoInfoTitle {
-   padding-left: 40px;
-   padding-right: 40px;
- }
+  .footerTextoInfoTitle {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
   .headerNavResponsiveBorder {
     height: 100%;
@@ -328,24 +325,23 @@ nav {
   }
 
   .mainCardImgHotel {
-   max-height: 375px;
- }
+    max-height: 375px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-   .footerDiseñador{
-      padding-top: 15px;
-   }
-   
-   .footerImgContainer {
-      padding-top: 15px;
-   
-     }
-   
-     .footerImgLogo {
-      height: 4.5em;
-      width: 40%;
-    }
+  .footerDiseñador {
+    padding-top: 15px;
+  }
+
+  .footerImgContainer {
+    padding-top: 15px;
+  }
+
+  .footerImgLogo {
+    height: 4.5em;
+    width: 40%;
+  }
 
   .headerColumns {
     flex-direction: column;
@@ -425,50 +421,49 @@ nav {
   }
 
   .mainCardImgHotel {
-   max-height: 450px;
+    max-height: 450px;
   }
 }
 
 @media screen and (min-width: 992px) {
-   .footerCovid {
-      text-align: justify;
-   }
-   
-   .footerImgContainer {
-      display: flex;
-      flex-direction: row;
-   
-     }
-   
-     .footerImgLogo {
-      height: auto;
-      width: 80%;
-    }
+  .footerCovid {
+    text-align: justify;
+  }
 
-    .footerTextoInfo {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-   .mainCardContentTitle {
+  .footerImgContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footerImgLogo {
+    height: auto;
+    width: 80%;
+  }
+
+  .footerTextoInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mainCardContentTitle {
     font-size: xxx-large;
   }
 
   .mainCardContentDescription {
-   font-size: large;
+    font-size: large;
 
-   padding: 15px;
- }
+    padding: 15px;
+  }
 
-//  TODO: poner una card a la par de la otra
+  //  TODO: poner una card a la par de la otra
   .mainCardImgCasino {
     max-height: auto !important;
   }
 
   .mainCardImgHotel {
-   max-height: auto !important;
- }
+    max-height: auto !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
