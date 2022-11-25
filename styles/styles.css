@@ -5,6 +5,10 @@
   background-color: #ec0000;
   color: #fff; }
 
+.cardContainer {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
 .footer {
   background-color: transparent !important;
   background-image: url("../../assets/images/footer/footer.jpg");
@@ -301,6 +305,12 @@ nav {
     max-height: 450px; } }
 
 @media screen and (min-width: 992px) {
+  .cardCasino {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .cardHotel {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
   .footerCovid {
     text-align: justify; }
   .footerImgContainer {

@@ -9,6 +9,11 @@
   color: $color-font1;
 }
 
+.cardContainer {
+   padding-left: 0px !important;
+   padding-right: 0px !important;
+}
+
 .footer {
   @include colorFondo;
 
@@ -426,6 +431,18 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
+  
+   .cardCasino {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+   }
+
+   .cardHotel {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+
+   }
+
   .footerCovid {
     text-align: justify;
   }
@@ -439,6 +456,7 @@ nav {
     height: auto;
     width: 80%;
   }
+
 
   .footerTextoInfo {
     display: flex;
