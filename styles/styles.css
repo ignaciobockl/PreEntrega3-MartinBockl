@@ -26,7 +26,11 @@
 
 .footerDiseñador {
   background-color: transparent !important;
+  padding-top: 5px;
   text-align: center; }
+
+.footerDiseñadorDesa {
+  background-color: transparent !important; }
 
 .footerDiseñadorNombre {
   background-color: transparent !important;
@@ -60,7 +64,14 @@
   flex-direction: column;
   align-items: center; }
 
+.footerTextoInfoCorporation {
+  background-color: transparent !important; }
+
+.footerTextoInfoDerechos {
+  background-color: transparent !important; }
+
 .footerTextoInfoTitle {
+  background-color: transparent !important;
   text-align: justify;
   padding-left: 30px;
   padding-right: 30px; }
@@ -200,6 +211,16 @@ nav {
 @media screen and (min-width: 576px) {
   .container {
     max-width: 100% !important; }
+  .footerDiseñador {
+    padding-top: 10px; }
+  .footerImgContainer {
+    padding-top: 10px; }
+  .footerImgLogo {
+    height: 5em;
+    width: 50%; }
+  .footerTextoInfoTitle {
+    padding-left: 40px;
+    padding-right: 40px; }
   .headerNavResponsiveBorder {
     height: 100%;
     justify-content: space-between; }
@@ -221,6 +242,13 @@ nav {
     max-height: 375px; } }
 
 @media screen and (min-width: 768px) {
+  .footerDiseñador {
+    padding-top: 15px; }
+  .footerImgContainer {
+    padding-top: 15px; }
+  .footerImgLogo {
+    height: 4.5em;
+    width: 40%; }
   .headerColumns {
     flex-direction: column;
     align-items: stretch; }
@@ -273,6 +301,18 @@ nav {
     max-height: 450px; } }
 
 @media screen and (min-width: 992px) {
+  .footerCovid {
+    text-align: justify; }
+  .footerImgContainer {
+    display: flex;
+    flex-direction: row; }
+  .footerImgLogo {
+    height: auto;
+    width: 80%; }
+  .footerTextoInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
   .mainCardContentTitle {
     font-size: xxx-large; }
   .mainCardContentDescription {

@@ -38,7 +38,12 @@
  .footerDiseñador {
    @include colorFondo;
 
+   padding-top: 5px;
    text-align: center;
+ }
+
+ .footerDiseñadorDesa {
+   @include colorFondo;
  }
 
  .footerDiseñadorNombre{
@@ -84,7 +89,17 @@
     align-items: center;
  }
 
+ .footerTextoInfoCorporation {
+   @include colorFondo;
+ }
+
+ .footerTextoInfoDerechos {
+   @include colorFondo;
+ }
+
  .footerTextoInfoTitle {
+   @include colorFondo;
+
    text-align: justify;
    padding-left: 30px;
    padding-right: 30px;
@@ -262,6 +277,25 @@ nav {
     max-width: 100% !important;
   }
 
+  .footerDiseñador{
+   padding-top: 10px;
+  }
+
+  .footerImgContainer {
+   padding-top: 10px;
+
+  }
+
+  .footerImgLogo {
+   height: 5em;
+   width: 50%;
+ }
+
+ .footerTextoInfoTitle {
+   padding-left: 40px;
+   padding-right: 40px;
+ }
+
   .headerNavResponsiveBorder {
     height: 100%;
     justify-content: space-between;
@@ -299,6 +333,20 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+   .footerDiseñador{
+      padding-top: 15px;
+   }
+   
+   .footerImgContainer {
+      padding-top: 15px;
+   
+     }
+   
+     .footerImgLogo {
+      height: 4.5em;
+      width: 40%;
+    }
+
   .headerColumns {
     flex-direction: column;
     align-items: stretch;
@@ -382,7 +430,28 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
-  .mainCardContentTitle {
+   .footerCovid {
+      text-align: justify;
+   }
+   
+   .footerImgContainer {
+      display: flex;
+      flex-direction: row;
+   
+     }
+   
+     .footerImgLogo {
+      height: auto;
+      width: 80%;
+    }
+
+    .footerTextoInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+   .mainCardContentTitle {
     font-size: xxx-large;
   }
 
