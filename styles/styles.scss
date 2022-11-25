@@ -1,3 +1,4 @@
+@import 'scss/footer';
 @import 'scss/main/card';
 @import 'scss/variables';
 
@@ -9,12 +10,84 @@
 }
 
 .footer {
+   @include colorFondo;
+
    background-image: url('../../assets/images/footer/footer.jpg');
    background-position-x: 50%;
    background-position-y: 50%;
    background-size: cover;
  
-   height: 500px;
+   // height: 500px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+ }
+
+ .footerCovid {
+   background-color: $bg-color4;
+   color: $color-font2;
+   padding: 40px;
+
+ }
+
+ .footerCovidTitle {
+   background-color: transparent;
+   color: $color-font2;
+   font-weight: bold;
+ }
+
+ .footerDiseñador {
+   @include colorFondo;
+
+   text-align: center;
+ }
+
+ .footerDiseñadorNombre{
+   @include colorFondo;
+
+   font-weight: bold;
+   text-decoration: none;
+   color: $color-font2;
+ }
+
+ .footerImgContainer {
+   @include colorFondo;
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+ }
+
+ .footerImgLogo {
+   @include colorFondo;
+
+   height: 6em;
+   width: 70%;
+ }
+
+ .footerRow {
+   @include colorFondo;
+ }
+
+ .footerTextoAvisoCovid {
+   @include colorFondo;
+
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+ }
+
+ .footerTextoInfo {
+   @include colorFondo;
+
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .footerTextoInfoTitle {
+   text-align: justify;
+   padding-left: 30px;
+   padding-right: 30px;
  }
 
 .header_banner {
