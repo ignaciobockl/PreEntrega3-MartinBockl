@@ -1,4 +1,5 @@
 @import 'scss/footer';
+@import 'scss/header';
 @import 'scss/main/card';
 @import 'scss/variables';
 
@@ -10,8 +11,57 @@
 }
 
 .cardContainer {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  @include paddingCero;
+}
+
+// .cardContainerCasino {
+//   @include paddingCero;
+// }
+
+.cardColumnCasino {
+  background-color: $bg-color4 !important;
+}
+
+.cardColumnCasinoItemBody {
+  background-color: $bg-color4;
+}
+
+.cardColumnCasinoItemList {
+  background-color: $bg-color4;
+}
+
+.cardColumnCasinoItemList > li {
+  background-color: $bg-color4;
+  color: $color-font2;
+  font-size: 1rem;
+}
+
+.cardColumnCasinoItemSubTitle {
+  background-color: $bg-color4;
+  color: $color-font3;
+  font-size: 1rem;
+}
+
+.cardColumnCasinoItemTitle {
+  background-color: $bg-color4;
+  color: $color-font2;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.cardColumnImg {
+  // width: 30em !important;
+  // height: auto;
+}
+
+.cardContainer {
+  // display: flex !important;
+  // flex-direction: row !important;
+  // justify-content: flex-end !important;
+  // align-items: stretch !important;
+
+  height:auto;
+  width: 100%;
 }
 
 .footer {
@@ -110,12 +160,41 @@
 }
 
 .header_banner {
-  background-image: url('./../assets/images/banner/banner_header.jpg');
-  background-position-x: 50%;
-  background-position-y: 50%;
-  background-size: cover;
+  @include backgroundHeader;
 
-  height: 300px;
+  background-image: url('./../assets/images/banner/banner_header.jpg');
+}
+
+.header_bannerCasino {
+  @include backgroundHeader;
+
+  background-image: url('./../assets/images/banner/banner_headerCasino.jpg');
+}
+
+.headerColumnCasino{
+  background-color: $bg-color4;
+  color: $color-font2;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 80px !important;
+}
+
+.headerColumnCasinoTitle {
+  background-color: $bg-color4;
+  color: $color-font2;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.headerColumnCasinoSubTitle {
+  background-color: $bg-color4;
+  color: $color-font2;
+  font-size: 1rem;
+  text-align: justify; 
 }
 
 .headerColumnLeft {
@@ -202,6 +281,11 @@
   font-size: 1.75rem;
   text-decoration: none;
   color: $color-font1;
+}
+
+.header_widget {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .mainCardContent {
@@ -298,6 +382,10 @@ nav {
     padding-right: 40px;
   }
 
+  .header_bannerCasino {
+    background-position-y: 25%;
+  }
+
   .headerNavResponsiveBorder {
     height: 100%;
     justify-content: space-between;
@@ -346,6 +434,10 @@ nav {
   .footerImgLogo {
     height: 4.5em;
     width: 40%;
+  }
+
+  .header_bannerCasino {
+  background-position-y: 15%;
   }
 
   .headerColumns {
@@ -459,6 +551,18 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .headerColumnCasino {
+    padding: 40px 125px !important;
+  }
+
+  .headerColumnCasinoTitle {
+    font-size: 2.5rem;
+  }
+
+  .headerColumnCasinoSubTitle {
+    font-size: 1.1rem;
   }
 
   .mainCardContentTitle {
