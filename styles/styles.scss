@@ -38,19 +38,15 @@
 }
 
 .cardColumnCasinoItemList {
-  background-color: $bg-color4;
-  margin-bottom: 0.2rem !important;
+  @include cardItemList;
 }
 
 .cardColumnCasinoItemList > li {
-  background-color: $bg-color4;
-  color: $color-font3;
-  font-size: 1rem;
+  @include cardItemListLi;
 }
 
 .cardColumnCasinoItemList > li > span {
-  background-color: $bg-color4 !important;
-  color: $color-font2;
+  @include cardItemListLiSpan;
 }
 
 .cardColumnCasinoItemSubTitle {
@@ -69,17 +65,7 @@
   margin-bottom: 0.5rem !important;
 }
 
-.cardColumnImg {
-  // width: 30em !important;
-  // height: auto;
-}
-
 .cardContainer {
-  // display: flex !important;
-  // flex-direction: row !important;
-  // justify-content: flex-end !important;
-  // align-items: stretch !important;
-
   height: auto;
   width: 100%;
 }

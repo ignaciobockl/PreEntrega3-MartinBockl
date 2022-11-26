@@ -15,6 +15,22 @@
   max-height: 350px;
 }
 
+@mixin cardItemList {
+  background-color: $bg-color4;
+  margin-bottom: 0.2rem !important;
+}
+
+@mixin cardItemListLi {
+  background-color: $bg-color4;
+  color: $color-font3;
+  font-size: 1rem;
+}
+
+@mixin cardItemListLiSpan {
+  background-color: $bg-color4 !important;
+  color: $color-font2;
+}
+
 @mixin paddingCero {
   padding-left: 0px !important;
   padding-right: 0px !important;
