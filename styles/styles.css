@@ -5,6 +5,10 @@
   background-color: #ec0000;
   color: #fff; }
 
+.bodyContainer {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
 .cardContainer {
   padding-left: 0px !important;
   padding-right: 0px !important; }
