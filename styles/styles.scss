@@ -10,17 +10,19 @@
   color: $color-font1;
 }
 
+.bodyCol {
+  padding-right: 0 !important;
+}
+
 .bodyContainer {
   @include paddingCero;
 }
 
 .cardContainer {
   @include paddingCero;
-}
 
-// .cardContainerCasino {
-//   @include paddingCero;
-// }
+  border: none !important;
+}
 
 .cardColumnCasino {
   background-color: $bg-color4 !important;
@@ -49,6 +51,20 @@
   @include cardItemListLiSpan;
 }
 
+.cardColumnCasinoItemListTragamonedas {
+  @include cardItemList;
+
+  margin-bottom: 0 !important;
+}
+
+.cardColumnCasinoItemListTragamonedas > li {
+  @include cardItemListLi;
+}
+
+.cardColumnCasinoItemListTragamonedas > li > span {
+  @include cardItemListLiSpan;
+}
+
 .cardColumnCasinoItemSubTitle {
   background-color: $bg-color4;
   color: $color-font3;
@@ -68,6 +84,12 @@
 .cardContainer {
   height: auto;
   width: 100%;
+}
+
+.cardContainerColumn {
+  @include paddingCero;
+
+  background-color: $bg-color4;
 }
 
 .footer {
