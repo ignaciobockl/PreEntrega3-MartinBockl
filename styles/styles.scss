@@ -81,7 +81,48 @@
   margin-bottom: 0.5rem !important;
 }
 
+.cardColumnHotel {
+  background-image: url('./../assets/images/hotel/hotel.jpg') !important;
+  // background-color: transparent !important;
+}
+
+.cardColumnHotelItemDescription {
+  background-color: transparent !important;
+  color: $color-font1;;
+  text-align: justify;
+  font-size: 1rem;
+  margin-bottom: 0.75rem !important;
+}
+
+.cardColumnHotelItemBody {
+  background-color: transparent !important;
+  padding: 35px !important;
+}
+
+.cardColumnHotelItemSubTitle {
+  background-color: transparent !important;
+  color: $color-font1;
+  font-weight: bold;
+  font-size: 1.15rem;
+  // margin-bottom: 0.5rem !important;
+}
+
+.cardColumnHotelItemTitle {
+  background-color: transparent !important;
+  color: $color-font1;
+  font-weight: bold;
+  text-align: center !important;
+  font-size: 1.75rem;
+  // margin-bottom: 0.5rem !important;
+}
+
 .cardContainer {
+  height: auto;
+  width: 100%;
+}
+
+.cardContainerHotel {
+  background-color: transparent !important;
   height: auto;
   width: 100%;
 }
@@ -197,6 +238,12 @@
   @include backgroundHeader;
 
   background-image: url('./../assets/images/banner/banner_headerCasino.jpg');
+}
+
+.header_bannerHotel {
+  @include backgroundHeader;
+
+  background-image: url('./../assets/images/banner/banner_headerHotel.jpg');
 }
 
 .headerColumnCasino {
