@@ -88,7 +88,7 @@
 
 .cardColumnHotelItemDescription {
   background-color: transparent !important;
-  color: $color-font1;;
+  color: $color-font1;
   text-align: justify;
   font-size: 1rem;
   margin-bottom: 0.75rem !important;
@@ -125,6 +125,7 @@
   background-color: transparent !important;
   height: auto;
   width: 100%;
+  border: none !important;
 }
 
 .cardContainerColumn {
@@ -498,6 +499,24 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  .cardColumnHotelLeft {
+    padding-right: 0 !important;
+  }
+
+  .cardColumnHotelCenter {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .cardColumnHotelRight {
+    padding-left: 0 !important;
+  }
+
+  .cardColumnImgHotel {
+    width: 100%;
+    min-height: 150px;
+  }
+
   .footerDiseñador {
     padding-top: 15px;
   }
@@ -598,9 +617,38 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
+  .cardContainer {
+    background-color: $bg-color4 !important;
+  }
+
+  .cardRow {
+    @include cardRow;
+
+    padding-top: 20px !important;
+  }
+
+  .cardRow2 {
+    @include cardRow;
+
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
   .cardCasino {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+
+  .cardColumnHotelLeft {
+    padding-left: 0 !important;
+  }
+
+  .cardColumnHotelRight {
+    padding-right: 0 !important;
+  }
+
+  .cardColumnImgHotel {
+    min-height: 175px;
   }
 
   .cardHotel {
