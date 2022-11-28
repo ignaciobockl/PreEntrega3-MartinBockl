@@ -31,6 +31,14 @@
   color: $color-font2;
 }
 
+@mixin cardRow {
+  background-color: $bg-color4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
 @mixin paddingCero {
   padding-left: 0px !important;
   padding-right: 0px !important;
