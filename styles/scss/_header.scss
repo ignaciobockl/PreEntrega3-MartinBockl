@@ -5,3 +5,29 @@
 
   height: 300px;
 }
+
+@mixin headerColumn {
+  background-color: $bg-color4;
+  color: $color-font2;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 80px !important;
+}
+
+@mixin headerColumnTitle {
+  background-color: $bg-color4;
+  color: $color-font2;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@mixin headerColumnSubTitle {
+  background-color: $bg-color4;
+  color: $color-font2;
+  font-size: 1rem;
+  text-align: justify;
+}
