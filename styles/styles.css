@@ -104,7 +104,8 @@
 .cardContainerHotel {
   background-color: transparent !important;
   height: auto;
-  width: 100%; }
+  width: 100%;
+  border: none !important; }
 
 .cardContainerColumn {
   padding-left: 0px !important;
@@ -390,6 +391,16 @@ nav {
     max-height: 375px; } }
 
 @media screen and (min-width: 768px) {
+  .cardColumnHotelLeft {
+    padding-right: 0 !important; }
+  .cardColumnHotelCenter {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .cardColumnHotelRight {
+    padding-left: 0 !important; }
+  .cardColumnImgHotel {
+    width: 100%;
+    min-height: 150px; }
   .footerDiseñador {
     padding-top: 15px; }
   .footerImgContainer {
@@ -451,9 +462,21 @@ nav {
     max-height: 450px; } }
 
 @media screen and (min-width: 992px) {
+  .bodyRow {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch; }
   .cardCasino {
     padding-left: 0 !important;
     padding-right: 0 !important; }
+  .cardColumnHotelLeft {
+    padding-left: 0 !important; }
+  .cardColumnHotelRight {
+    padding-right: 0 !important; }
+  .cardColumnImgHotel {
+    min-height: 175px; }
   .cardHotel {
     padding-left: 0 !important;
     padding-right: 0 !important; }
