@@ -22,6 +22,16 @@
   font-weight: bold;
   padding: 30px; }
 
+.cardButtonFormula1 {
+  background-color: #ec0000 !important; }
+
+.cardButtonFormula1 > a {
+  background-color: transparent !important;
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 30px; }
+
 .cardContainer {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -430,9 +440,23 @@ nav {
 .navbar-toggler {
   background-color: #453a4f !important; }
 
+@media screen and (max-width: 350px) {
+  .cardPromocionImg {
+    height: 200px; } }
+
+@media screen and (max-width: 450px) {
+  .cardPromocionImg {
+    height: 250px; } }
+
+@media screen and (max-width: 576px) {
+  .cardPromocionImg {
+    height: 300px; } }
+
 @media screen and (min-width: 576px) {
   .container {
     max-width: 100% !important; }
+  .cardPromocionImg {
+    height: 350px; }
   .footerDiseñador {
     padding-top: 10px; }
   .footerImgContainer {
@@ -476,6 +500,8 @@ nav {
   .cardColumnImgHotel {
     width: 100%;
     min-height: 150px; }
+  .cardPromocionImg {
+    height: 300px; }
   .footerDiseñador {
     padding-top: 15px; }
   .footerImgContainer {
@@ -554,6 +580,12 @@ nav {
     align-items: stretch;
     padding-top: 30px !important;
     padding-bottom: 30px !important; }
+  .cardRowPromocion {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch; }
   .cardCasino {
     padding-left: 0 !important;
     padding-right: 0 !important; }
@@ -606,3 +638,7 @@ nav {
     justify-content: center;
     background-color: #200b33;
     border-top: 1.5px solid #ec0000; } }
+
+@media screen and (min-width: 1250px) {
+  .cardPromocionImg {
+    height: 350px; } }
