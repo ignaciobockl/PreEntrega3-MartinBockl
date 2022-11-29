@@ -23,11 +23,15 @@
 }
 
 .cardButton > a {
-  background-color: transparent !important;
-  text-decoration: none;
-  color: $color-font1 !important;
-  font-weight: bold;
-  padding: 30px;
+  @include cardButton;
+}
+
+.cardButtonFormula1 {
+  background-color: $bg-color !important;
+}
+
+.cardButtonFormula1 > a {
+  @include cardButton;
 }
 
 .cardContainer {
@@ -497,9 +501,31 @@ nav {
   background-color: #453a4f !important;
 }
 
+@media screen and (max-width: 350px) {
+  .cardPromocionImg {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cardPromocionImg {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cardPromocionImg {
+    height: 300px;
+  }
+}
+
 @media screen and (min-width: 576px) {
   .container {
     max-width: 100% !important;
+  }
+
+  .cardPromocionImg {
+    height: 350px;
   }
 
   .footerDiseñador {
@@ -577,6 +603,10 @@ nav {
   .cardColumnImgHotel {
     width: 100%;
     min-height: 150px;
+  }
+
+  .cardPromocionImg {
+    // height: 350px;
   }
 
   .footerDiseñador {

@@ -22,6 +22,16 @@
   font-weight: bold;
   padding: 30px; }
 
+.cardButtonFormula1 {
+  background-color: #ec0000 !important; }
+
+.cardButtonFormula1 > a {
+  background-color: transparent !important;
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 30px; }
+
 .cardContainer {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -123,7 +133,7 @@
 .cardColumnPromocionItemSubTitle {
   background-color: transparent !important;
   color: #000;
-  font-size: 1rem;  }
+  font-size: 1rem; }
 
 .cardColumnPromocionItemTitle {
   background-color: transparent !important;
@@ -430,9 +440,23 @@ nav {
 .navbar-toggler {
   background-color: #453a4f !important; }
 
+@media screen and (max-width: 350px) {
+  .cardPromocionImg {
+    height: 200px; } }
+
+@media screen and (max-width: 450px) {
+  .cardPromocionImg {
+    height: 250px; } }
+
+@media screen and (max-width: 576px) {
+  .cardPromocionImg {
+    height: 300px; } }
+
 @media screen and (min-width: 576px) {
   .container {
     max-width: 100% !important; }
+  .cardPromocionImg {
+    height: 350px; }
   .footerDiseñador {
     padding-top: 10px; }
   .footerImgContainer {
